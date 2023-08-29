@@ -31,9 +31,14 @@ class Board extends React.Component{
   render(){
     let cells = [];
     for (let i=0;i<9;i++){
-      cells.push(<Cell mark={this.state.marks[i]} index={i}/>);
+      cells.push(<Cell mark={this.state.marks[i]} index={i} update={this.Update.bind(this)}/>);
     }
     return <div className='Board'>{cells}</div>
+  }
+  Update(index){
+    this.setState((currentState)=>{
+      
+    })
   }
 }
 
