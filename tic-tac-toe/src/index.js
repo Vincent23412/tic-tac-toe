@@ -37,7 +37,6 @@ class Board extends React.Component{
   }
   Update(index){
     this.setState((currentState)=>{
-      
     })
   }
 }
