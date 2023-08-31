@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'
+import './index.css';
 
 class Line extends React.Component{
   render(){
@@ -86,8 +86,6 @@ class Board extends React.Component{
 
   }
 }
-
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
