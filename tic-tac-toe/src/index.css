@@ -18,3 +18,10 @@
   cursor:pointer;
   text-align: center;
 }
+.Board>.line{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:300px;
+}
